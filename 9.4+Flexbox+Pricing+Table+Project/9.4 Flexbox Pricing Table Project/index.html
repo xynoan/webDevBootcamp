@@ -9,11 +9,39 @@
   <style>
     body {
       font-family: 'Sono', sans-serif;
+      text-align: center;
+      background-color: grey;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .pricing-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      min-height: 97vh;
+      color: white;
+    }
+
+    .pricing-plan {
+      background-color: black;
+      padding: 20px;
+      flex-basis: 300px;
     }
 
     /* Hint: What can you do with a media query and flexbox? */
-    @media (max-width: 1250px) {
-      
+    @media (width <= 1115px) {
+      .pricing-container {
+        flex-direction: column;
+      }
+
+      .pricing-plan {
+        flex-basis: 0;
+        width: 300px;
+      }
     }
   </style>
 </head>
