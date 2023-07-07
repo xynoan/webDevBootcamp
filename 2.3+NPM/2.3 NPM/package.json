@@ -1,0 +1,15 @@
+{
+  "name": "random-superhero",
+  "version": "1.0.0",
+  "description": "generate random superhero",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathaniel Carlo Morva",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
+}
